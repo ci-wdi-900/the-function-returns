@@ -1,7 +1,41 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+let greeting = "Hello";
+let sum = 0;
+let prod = 0;
 
+function greet(person) {
+  greeting = greeting + " " + person;
+}
+
+function  sumOfTwo(num1, num2) {
+  sum = num1 + num2;
+}
+
+function multiply(num1, num2, num3) {
+  prod = num1 * num2 * num2;
+}
+
+function sayHi(name) {
+  return "Hello " + name + "!";
+}
+
+function returnWhatISay(str) {
+  return str;
+}
+
+function divide(num1, num2) {
+  return num1 / num2;
+}
+
+function remainder(num1, num2) {
+  return num1 % num2;
+}
+
+const result1 = divide(100, 20); 
+const result2 = divide(5, 3);
+const result3 = divide(10,2);
 
 
 
